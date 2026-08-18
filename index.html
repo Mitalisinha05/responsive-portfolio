@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>complete responsive personal portfolio website</title>
+    <!-- boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+
+    <!-- header -->
+    <header class="active">
+        <a href="#" class="logo">Portfolio</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav>
+            <a href="#" class="active">Home</a>
+            <a href="#">Service</a>
+            <a href="#">Resume</a>
+            <a href="#">Portfolio</a>
+            <a href="#">Contact</a>
+
+        </nav>
+    </header>
+
+<!-- bars background -->
+ <div class="bars-box">
+    <div class="bar" style="--i:1;"></div>
+    <div class="bar" style="--i:2;"></div>
+    <div class="bar" style="--i:3;"></div>
+    <div class="bar" style="--i:4;"></div>
+    <div class="bar" style="--i:5;"></div>
+    <div class="bar" style="--i:6;"></div>
+
+ </div>
+
+    <!-- home section-->
+    <section class="home active">
+        <div class="home-detail">
+            <h1>Deepak Chandrasen</h1>
+            <h2> I'm a
+                <span style="--i:1;" data-text="Senior Software Engineer">Senior Software Engineer</span>
+                <span style="--i:0;" data-text="Full Stack Developer">Full Stack Developer</span>
+            </h2>
+            <p>Building scalable, secure, and modern web applications with PHP, Laravel, Node.js, and React while
+                leading engineering teams.</p>
+            <div class="btn-sci">
+                <a href="#" class="btn">Download CV</a>
+                <div class="sci">
+                    <a href="#"><i class='bx bxl-github'></i></a>
+                    <a href="#"><i class='bx bxl-linkedin'></i></a>
+
+                </div>
+            </div>
+        </div>
+        <div class="home-img">
+            <div class="img-box">
+                <div class="img-item">
+                    <img src="portfolioimg1.jpeg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--service section -->
+    <section class="services">
+        <h2 class="heading">
+            my <span>Services</span>
+        </h2>
+        <div class="services-container">
+            <div class="services-box">
+                <div class="icon">
+                    <i class='bx bx-code-alt'></i>
+                    <a href="#"><i class='bx bx-arrow-back'></i></a>
+                </div>
+                <h3>Full-Stack Development</h3>
+                <p>Building scalable web applications using PHP, Laravel, Node.js, Angular and React/Next.js.</p>
+            </div>
+
+            <div class="services-box">
+                <div class="icon">
+                    <i class='bx bx-network-chart'></i>
+                    <a href="#"><i class='bx bx-arrow-back'></i></a>
+                </div>
+                <h3>REST API Development</h3>
+                <p>Designing secure RESTful APIs with OAuth 2.0, authentication and role-based access control.</p>
+            </div>
+            <div class="services-box">
+                <div class="icon">
+                    <i class='bx bx-data'></i>
+                    <a href="#"><i class='bx bx-arrow-back'></i></a>
+                </div>
+                <h3>Database & Performance Optimization</h3>
+                <p>Designing and optimizing MySQL/PostgreSQL databases and improving application performance.</p>
+            </div>
+            <div class="services-box">
+                <div class="icon">
+                    <i class='bx bx-cloud'></i>
+                    <a href="#"><i class='bx bx-arrow-back'></i></a>
+                </div>
+                <h3>Cloud & Deployment</h3>
+                <p>Deploying and managing applications using AWS, EC2, S3 and CI/CD pipelines.</p>
+            </div>
+            <div class="services-box">
+                <div class="icon">
+                    <i class='bx bx-server'></i>
+                    <a href="#"><i class='bx bx-arrow-back'></i></a>
+                </div>
+                <h3>Backend Development</h3>
+                <p>Developing secure and scalable backend systems using PHP, Laravel, CodeIgniter, Node.js and NestJS.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!--resume section-->
+    <section class="resume">
+        <div class="resume-container">
+            <div class="resume-box">
+                <h2>Why Hire Me?</h2>
+                <p class="desc">Passionate about building scalable applications with strong technical and
+                    problem-solving skills.</p>
+                <button class="resume-btn active">Experience</button>
+                <button class="resume-btn">Education</button>
+                <button class="resume-btn">Skills</button>
+                <button class="resume-btn">About me</button>
+
+            </div>
+            <div class="resume-box">
+                <div class="resume-detail experience active">
+                    <h2 class="heading">My <span>Experience</span></h2>
+                    <p class="desc">Experienced in full-stack development, backend systems, REST APIs, databases, and
+                        cloud deployment.</p>
+                    <div class="resume-list">
+                        <div class="resume-item">
+                            <p class="year"> Nov 2023 – Present</p>
+                            <h3>Senior Software Engineer</h3>
+                            <p class="company">Oneclick IT Solutions</p>
+                            <p>Lead two engineering teams (8 developers total) delivering HRMS and fleet-management
+                                platforms for enterprise clients.</p>
+                        </div>
+
+                        <div class="resume-item">
+                            <p class="year"> June 2022 – Aug 2023</p>
+                            <h3>Software Engineer</h3>
+                            <p class="company">Skills Outsource</p>
+                            <p>Designed and built REST APIs with secure OAuth 2.0 authentication, forming the core
+                                integration layer for client applications.</p>
+                        </div>
+
+                        <div class="resume-item">
+                            <p class="year">Jan 2021 – May 2022</p>
+                            <h3>Full Stack Developer</h3>
+                            <p class="company">Chip N Web Technologies</p>
+                            <p>Designed RESTful APIs enabling integration across multiple internal applications.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="resume-detail education">
+                    <h2 class="heading">My <span>Education</span></h2>
+                    <p class="desc">B.Tech in Computer Science Engineering with a strong foundation in programming,
+                        databases, and software development.</p>
+                    <div class="resume-list">
+                        <div class="resume-item">
+                            <p class="year">2021</p>
+                            <h3>B.E. Computer Science</h3>
+                            <p class="company">RSR Rungta College of Engineering & Technology, Bhilai</p>
+                            <p>Focused on programming, software development, databases, and web technologies.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="resume-detail skills">
+                    <h2 class="heading">My <span>Skills</span></h2>
+                    <p class="desc">Skilled in frontend, backend development, REST APIs, databases, and modern web
+                        technologies.</p>
+                        <div class="resume-list">
+                            <div class="resume-item">
+            <i class='bx bxl-php'></i>
+            <span>PHP</span>
+        </div>
+
+        <div class="resume-item">
+            <i class='bx bx-code-alt'></i>
+            <span>Laravel</span>
+        </div>
+
+        <div class="resume-item">
+            <i class='bx bxl-nodejs'></i>
+            <span>Node.js</span>
+        </div>
+
+        <div class="resume-item">
+            <i class='bx bxl-angular'></i>
+            <span>Angular</span>
+        </div>
+
+        <div class="resume-item">
+            <i class='bx bxl-react'></i>
+            <span>React Native</span>
+        </div>
+
+        <div class="resume-item">
+            <i class='bx bxl-postgresql'></i>
+            <span>PostgreSQL</span>
+        </div>
+
+        <div class="resume-item">
+            <i class='bx bx-data'></i>
+            <span>MySQL</span>
+        </div>
+
+        <div class="resume-item">
+            <i class='bx bx-cloud'></i>
+            <span>AWS</span>
+        </div>
+
+                        </div>
+                </div>
+                <div class="resume-detail about">
+                    <h2 class="heading">About <span> Me</span></h2>
+                    <p class="desc">Passionate developer focused on building reliable, scalable applications and
+                        continuously improving technical skills.</p>
+                        <div class="resume-list">
+                            <div class="resume-item">
+                                <p>Name <span>Deepak Chandrasen</span></p>
+                            </div>
+                            <div class="resume-item">
+                                <p>City <span>Kabirdham, Chhattisgarh, India</span></p>
+                            </div>
+                            <div class="resume-item">
+                                <p>Experience <span> 5+ Years</span></p>
+                            </div>
+                            <div class="resume-item">
+                                <p>Phone <span>+91 8871901655</span></p>
+                            </div>
+                            <div class="resume-item">
+                                <p>Email <span>deepakchandrasen2707@gmail.com</span></p>
+                            </div>
+                             
+                            <div class="resume-item">
+                                <p>Languages <span> English</span></p>
+                            </div>
+                            
+
+
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--portfolio section-->
+<section class="portfolio">
+<h2 class="heading">Latest <span>project</span></h2>
+<div class="portfolio-container">
+    <div class="portfolio-box">
+        <div class="portfolio-detail active">
+            <p class="numb">01</p>
+            <h3>Pawking — Pet Services Marketplace (Flagship Project) </h3>
+            <p>Built a full-stack two-sided marketplace connecting pet owners with service providers, covering the complete booking lifecycle from request through payment to completion.</p>
+            <div class="tech">
+                <p>NestJS, Next.js, PostgreSQL, Stripe, AWS</p>
+            </div>
+            <div class="live-github">
+                <a href="#"><i class="bx bx-arrow-back"></i><span>Live Project</span></a>
+                <a href="#"><i class='bx bxl-github'></i><span>Github Repositry</span></a>
+            </div>
+        </div>
+
+        <div class="portfolio-detail">
+            <p class="numb">02</p>
+            <h3>Fleet Management System — TerraMar Networks </h3>
+            <p>Led architecture and end-to-end development of a fleet/asset-tracking platform for a global logistics, mining, oil & gas, and maritime client, including real-time tracking.</p>
+            <div class="tech">
+                <p>ExtJS, PHP</p>
+                
+            </div>
+            <div class="live-github">
+                <a href="#"><i class="bx bx-arrow-back"></i><span>Live Project</span></a>
+                <a href="#"><i class='bx bxl-github'></i><span>Github Repositry</span></a>
+            </div>
+        </div>
+
+        <div class="portfolio-detail">
+            <p class="numb">03</p>
+             <h3>AduX Advertising Platform (adux-bo.com)</h3>
+            <p>Built an advertising management platform balancing ad effectiveness with user experience.</p>
+            <div class="tech">
+                <p>CodeIgniter, AngularJS</p>
+                
+            </div>
+             <div class="live-github">
+                <a href="#"><i class="bx bx-arrow-back"></i><span>Live Project</span></a>
+                <a href="#"><i class='bx bxl-github'></i><span>Github Repositry</span></a>
+            </div>
+        </div>
+        <div class="portfolio-detail">
+            <p class="numb">04</p>
+             <h3>Veelo Mobility App</h3>
+            <p>Built mobile platforms for EV riders and battery-swap point services, including live location tracking and booking.</p>
+            <div class="tech">
+                <p>React Native, Node.js, Angular</p>
+                
+            </div>
+             <div class="live-github">
+                <a href="#"><i class="bx bx-arrow-back"></i><span>Live Project</span></a>
+                <a href="#"><i class='bx bxl-github'></i><span>Github Repositry</span></a>
+            </div>
+        </div>
+        <div class="portfolio-detail">
+            <p class="numb">05</p>
+             <h3>AcomTV Dashboard (acomtv.com) </h3>
+            <p>Built the admin dashboard and APIs powering subscription plans, reseller management, and streaming controls.</p>
+            <div class="tech">
+                <p>Laravel</p>
+                
+            </div>
+             <div class="live-github">
+                <a href="#"><i class="bx bx-arrow-back"></i><span>Live Project</span></a>
+                <a href="#"><i class='bx bxl-github'></i><span>Github Repositry</span></a>
+            </div>
+        </div>
+         <div class="portfolio-detail">
+            <p class="numb">06</p>
+             <h3>Sutra Clothing E-commerce (sutraclothing.in)</h3>
+            <p>Built an e-commerce portal for saree sales with advanced categorization and admin controls.</p>
+            <div class="tech">
+                <p>Laravel</p>
+                
+            </div>
+             <div class="live-github">
+                <a href="#"><i class="bx bx-arrow-back"></i><span>Live Project</span></a>
+                <a href="#"><i class='bx bxl-github'></i><span>Github Repositry</span></a>
+            </div>
+        </div>
+        
+    </div>
+    <div class="portfolio-box">
+            <div class="portfolio-carousel">
+                <div class="img-slide">
+                    <div class="img-item">
+                        <img src="01_Pawking(1).png">
+                    </div>
+                     <div class="img-item">
+                        <img src="02_TerraMar_Fleet_Management.png">
+                    </div>
+                     <div class="img-item">
+                        <img src="03_AduX_Advertising.png">
+                    </div>
+                     <div class="img-item">
+                        <img src="04_Veelo_Mobility.png">
+                    </div>
+                     <div class="img-item">
+                        <img src="05_AcomTV_Streaming.png">
+                    </div>
+                     <div class="img-item">
+                        <img src="06_Sutra_Clothing(1).png">
+                    </div>
+                </div>
+            </div>
+            <div class="navigation">
+                <button class="arrow-left"><i class="bx bx-chevron-left"></i></button>
+                <button class="arrow-right"><i class="bx bx-chevron-right"></i></button>
+            </div>
+        </div>
+
+</div>
+</section>
+
+<!-- contact section -->
+ <section class="contact">
+    <div class="contact-container">
+        <div class="contact-box">
+            <h2>Let's Work Together</h2>
+            <p class="desc">Feel free to reach out for projects, opportunities, or any professional inquiries.</p>
+            <div class="contact-detail">
+                <i class='bx bxs-phone'></i>
+                <div class="detail">
+                    <p>Phone</p>
+                    <p>(+91) 8871901655</p>
+                </div>
+            </div>
+            <div class="contact-detail">
+                <i class='bx bxs-envelope'></i>
+                <div class="detail">
+                    <p>Email</p>
+                    <p>deepakchandrasen2707@gmail.com</p>
+                </div>
+            </div>
+            <div class="contact-detail">
+                <i class='bx bxs-map'></i>
+                <div class="detail">
+                    <p>Address</p>
+                    <p>Pandariya, Kabirdham, Chhattisgarh, India </p>
+                </div>
+            </div>
+        </div>
+        <div class="contact-box">
+            <form id="contact-form">
+
+    <h2 class="heading">Contact <span>Me!</span></h2>
+
+    <div class="field-box">
+
+        <input type="text" name="name" placeholder="Full Name" required>
+
+        <input type="email" name="email" placeholder="Email Address" required>
+
+        <input type="text" name="phone" placeholder="Phone Number" required>
+
+        <input type="text" name="subject" placeholder="Email Subject" required>
+
+        <textarea name="message" placeholder="Your Message" required></textarea>
+
+    </div>
+
+    <button type="submit" class="btn">Send Message</button>
+<p id="form-message"></p>
+</form>
+        </div>
+    </div>
+ </section>
+    <!-- custom js-->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+     
+    <script src="script.js"></script>
+</body>
+
+</html>
